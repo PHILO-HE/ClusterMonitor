@@ -39,9 +39,9 @@ By default, the secont page is auto refreshing after its first loading.
 
 Test Environment
 ================
-Ubuntu 14.04
-tomcat  apache-tomcat-8.0.36
-Firefox
+1. Ubuntu 14.04
+2. apache-tomcat-8.0.36
+3. Firefox
 I do not guarantee that this web service works well in the different environment.
 
 

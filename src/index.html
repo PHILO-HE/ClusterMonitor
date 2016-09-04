@@ -1,0 +1,37 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<!-- 代码说明     By He Feilong
+
+该页面是Web服务的入口，供用户输入监控机器的IP地址，提交后，由redirect.jsp进一步处理
+--> 
+
+
+<body>
+<center>
+<BR><BR><BR>
+<form method="post" action="redirect.jsp" name="myform">
+<input type=text name="ip" value="114.215.150.15" onfocus="focusFunction()" onblur="blurFunction()"/>
+<input type=submit name="submit">
+</form>
+
+</center>
+
+ <script type="text/javascript">  
+			function focusFunction()
+			{
+	          document.myform.ip.value="";
+			}
+
+function blurFunction()
+	        {   
+	        	if(document.myform.ip.value=="") 
+	        	  document.myform.ip.value="114.215.150.15";  //设定默认ip
+	        }
+
+ </script>
+
+ </body>
+</html>

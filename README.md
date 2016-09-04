@@ -1,8 +1,6 @@
 # ClusterMonitor
 Monitor the CPU/Memory utilization rate for nodes in a cluster
 
-By He Feilong
-======================
 
 This project has been tested on my server.
 You can visit  
@@ -12,9 +10,7 @@ http://114.215.150.15:8080/JSP-Project/
 and use the default IP address in the home page to experience the provided web service.
 
 
-
-
-Project Requirements (emailed to me)
+Project Requirements
 ===========
 Below are the project requirements.
 
@@ -26,7 +22,6 @@ Below are the project requirements.
 
 This project was designed just according to my own understanding of the above requirements.
 I did not figure out Item 3, so in my project it was not considered.
-
 
 
 Introduction

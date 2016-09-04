@@ -22,7 +22,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 
-<!-- 代码说明     By He Feilong
+<!--By He Feilong
 
 1.本文件放在所有监控的机器。
 
@@ -43,7 +43,6 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"
 	charset="utf-8"></script>
-
 <style type="text/css">
 
 #mydivcss {
@@ -118,10 +117,8 @@ while(i++<10){
         String methodName=method.getName();
      
        %>
-
 		<%//=methodName %>
 		<%//=value %>
-
 		<script type="text/javascript">
   var name='<%=methodName%>';
   var freeMemorySize, totalMemorySize;
@@ -148,9 +145,7 @@ while(i++<10){
 %>
 
 <script type="text/javascript">
-
   memoryUsageRate.push([(totalMemorySize-freeMemorySize)/totalMemorySize]);
-  
 </script>
 
 <%
@@ -284,6 +279,5 @@ while(i++<10){
 </script>
 
 </div> 
-
 </body>
 </html>

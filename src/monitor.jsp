@@ -96,7 +96,7 @@ int i=0;
 while(i++<10){ 
 %>
 
-		<% 
+	<% 
   OperatingSystemMXBean operatingSystemMXBean = ManagementFactory.getOperatingSystemMXBean();
   for (Method method : operatingSystemMXBean.getClass().getDeclaredMethods()) {
     method.setAccessible(true);
